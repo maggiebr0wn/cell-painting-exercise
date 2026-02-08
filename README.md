@@ -121,7 +121,7 @@ PVCA decomposes embedding variance into contributions from:
 
 ### Results
 
-[INSERT: task3_pvca_comparison.png - bar chart showing variance decomposition for Raw/Normalized/Brightfield]
+![PVCA Variance Decomposition](figures/task3_pvca_comparison.png)
 
 | Factor | Raw PCA | Normalized PCA | Brightfield |
 |--------|---------|----------------|-------------|
@@ -163,9 +163,9 @@ Four post-processing approaches were tested on **raw (unnormalized) embeddings**
 
 ### Results
 
-[INSERT: task4_embedding_comparison.png - side-by-side PVCA quality scores and variance breakdowns]
+![Embedding Quality Comparison](figures/task4_embedding_comparison.png)
 
-[INSERT: task4_prediction_comparison.png - horizontal bar chart with LR and XGBoost F1 scores]
+![Prediction Performance Comparison](figures/task4_prediction_comparison.png)
 
 | Method | Quality Score | LR F1 | XGB F1 | Key Trade-offs |
 |--------|---------------|-------|--------|----------------|
@@ -217,7 +217,7 @@ LR consistently outperforms XGBoost by 0.02-0.04 F1 points, suggesting **embeddi
 
 **Hypothesis:** Embeddings should predict broad categories better than specific targets.
 
-[INSERT: task5_hierarchy_performance.png - side-by-side bar charts for LR and XGBoost across 3 hierarchy levels]
+![Annotation Hierarchy Performance](figures/task5_hierarchy_performance.png)
 
 #### Results
 
@@ -244,7 +244,7 @@ Embeddings capture **coarse phenotypic differences** (Signaling vs Cell Stress v
 
 **Which specific targets are well vs poorly captured?**
 
-[INSERT: task5_sample_size_correlation.png - scatter plot with annotated outliers]
+![Sample Size vs Prediction Accuracy](figures/task5_sample_size_correlation.png)
 
 #### Well-Captured Targets (F1 > 0.20)
 
@@ -305,7 +305,7 @@ Sample size explains ~16% of variance in F1 scores (ρ² = 0.156). Other factors
 
 **Can embeddings capture concentration-dependent effects?**
 
-[INSERT: task5_dose_response_distribution.png - histogram with threshold lines]
+![Dose-Response Sensitivity Distribution](figures/task5_dose_response_distribution.png)
 
 #### Results (50 multi-dose compounds)
 
