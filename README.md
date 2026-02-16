@@ -1,12 +1,6 @@
 # Cell Painting Embedding Analysis: Mechanism of Action Prediction
 
-**Author:** Maggie  
-**Date:** February 2026  
-**Dataset:** OASIS consortium - Primary human hepatocytes, ~20k bioactive wells, 1,099 compounds
-
----
-
-## Executive Summary
+## Summary
 
 This analysis evaluated cell painting image embeddings for predicting drug mechanism of action (MoA). Key findings:
 
